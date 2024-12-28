@@ -21,10 +21,8 @@ Before running, add the seed data to the data folder in separate JSON files for 
 3. Run your application container on the same network:
  `docker run -d --name my-app --network my-network my-app-image`
 
-4. Use mongodb-container as the hostname:
+4. Use mongodb-container as the hostname when running the app:
    `mongodb://mongodb-container:27017`
-
-6. Use the url to connect when running the app!
 
 #### Additional connection types for reviewing data:
 
